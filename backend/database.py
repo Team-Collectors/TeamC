@@ -5,7 +5,7 @@ from fastapi import Depends
 
 app = FastAPI()
 
-client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017/')
+client = motor.motor_asyncio.AsyncIOMotorClient('mongodb+srv://User:Password@clubs.ws16ha9.mongodb.net/test')
 
 # Database collections
 database = client.TheCollectors
